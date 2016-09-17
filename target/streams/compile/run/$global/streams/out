@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mRunning Main fills prices[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
