@@ -1,31 +1,23 @@
-import java.math.BigInteger
 
 import scala.concurrent.Future
 import scala.io.Source
 import scala.util.{Failure, Success}
 import scala.concurrent.ExecutionContext.Implicits.global
 
+
+
+
+
 /**
-  * Created by jcohen66 on 9/16/16.
+  * This is the main entry point to the application.
+  *
+  * To run from command line:
+  *
+  *       sbt
+  *       run fills prices
+  *
+  *       Note: Must CTRL-C to end the application run.
   */
-case class Fill(messageType: String, milliseconds: BigInt, symbol: String, fillPx: Double, fillSize: Integer, side: Char)
-
-case class Px(messageType: String, milliseconds: BigInt, symbol: String, px: Double)
-
-case class Position(symbol: String, milliseconds: BigInt, position: Integer = 0, netCash: Double = 0.0) extends Ordered[Position] {
-
-  // return 0 if the same, negative if this < that, positive if this > that
-  def compare(that: Position) = {
-    if (this.milliseconds == that.milliseconds)
-      0
-    else if (this.milliseconds > that.milliseconds)
-      1
-    else
-      -1
-  }
-}
-
-
 object Main extends App {
 
   override def main(args: Array[String]) {
@@ -39,16 +31,27 @@ object Main extends App {
     val fills = arglist(0)
     val prices = arglist(1)
 
+    // Use futures to async load the fills data
     Future {
       loadData(fills)
     }.onComplete {
+      // Load the prices only after the async load of the fills data completes.
       case Success(result) => loadData(prices)
       case Failure(e) => e.printStackTrace
     }
 
+    while(true) {
+      Thread.sleep(1000)
+    }
     println("done")
 
   }
+
+  /**
+    * Load and parse the provided files.
+    *
+    * @param filename
+    */
 
   def loadData(filename: String) = {
     for (line <- Source.fromFile(filename).getLines) {
@@ -70,6 +73,7 @@ object Main extends App {
           println("Invalid record type")
       }
     }
+    println("CTRL-C to end.")
   }
 
 }

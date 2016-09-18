@@ -1,13 +1,9 @@
-
-
-
 import org.scalatest._
 import org.scalatest.concurrent.{AsyncAssertions, Eventually, IntegrationPatience}
 import scala.collection.mutable
 
 
 class PositionServiceSpec extends FlatSpec with Matchers with Eventually with AsyncAssertions {
-
 
   "PositionService" should "calculate net position" in {
 
@@ -47,7 +43,21 @@ class PositionServiceSpec extends FlatSpec with Matchers with Eventually with As
 
   }
 
-  "PositionService" should "calculate net cash" in {
+  "PositionService" should "calculate net position when passed a short as the initial position for the symbol" in {
+
+    PositionService.clear()
+    val symbol = "MSFT"
+
+    val f_t0 = Fill("F", 1388535240618L, symbol, 42.44, -100, 'S')
+
+    PositionService.transact(f_t0)
+
+
+    PositionService.position(symbol).position should be(-100)
+
+  }
+
+  "PositionService" should "calculate net cash for a long buy or regular sell" in {
 
     PositionService.clear()
     val symbol = "MSFT"
@@ -63,6 +73,36 @@ class PositionServiceSpec extends FlatSpec with Matchers with Eventually with As
     PositionService.transact(f_t3)
 
     PositionService.position(symbol).netCash should be((42.43 * 300 * -1) + (42.43 * 300 * -1) + (42.44 * 300 * -1) + (42.44 * 100 * 1))
+  }
+
+  "PositionService" should "calculate net cash for a short sell" in {
+
+    PositionService.clear()
+    val symbol = "MSFT"
+
+    val f_t0 = Fill("F", 1388534400000L, symbol, 42.43, 300, 'B')
+    val f_t1 = Fill("F", 1388534638571L, symbol, 42.43, 300, 'B')
+    val f_t2 = Fill("F", 1388534839385L, symbol, 42.44, 300, 'B')
+    val f_t3 = Fill("F", 1388535240618L, symbol, 42.44, -100, 'S')
+
+    PositionService.transact(f_t0)
+    PositionService.transact(f_t1)
+    PositionService.transact(f_t2)
+    PositionService.transact(f_t3)
+
+    PositionService.position(symbol).netCash should be((42.43 * 300 * -1) + (42.43 * 300 * -1) + (42.44 * 300 * -1) + (42.44 * -100 * -1))
+  }
+
+  "PositionService" should "calculate net cash for a short sell as the initial position for the symbol" in {
+
+    PositionService.clear()
+    val symbol = "MSFT"
+
+    val f_t0 = Fill("F", 1388535240618L, symbol, 42.44, -100, 'S')
+
+    PositionService.transact(f_t0)
+
+    PositionService.position(symbol).netCash should be((42.44 * -100 * -1))
   }
 
   "PositionService" should "calculate net P&L when m2m price hasnt chanted" in {
@@ -81,13 +121,12 @@ class PositionServiceSpec extends FlatSpec with Matchers with Eventually with As
     PositionService.transact(f_t3)
 
     val p_t0 = Px("P",1388534400002L, symbol, 42.43)
-
-    // val positionByTime = PositionService.position(p_t0.symbol, p_t0.milliseconds)
-    // val pnl = "%06.2f".format(((positionByTime.position * p_t0.px) + positionByTime.netCash))
     val pnl = PositionService.pnl(symbol, p_t0.milliseconds, p_t0.px)
 
     pnl.toDouble should be(0.00)
   }
+
+
 
   "PositionService" should "calculate net P&L when m2m price changes by $1.00" in {
 
@@ -131,24 +170,9 @@ class PositionServiceSpec extends FlatSpec with Matchers with Eventually with As
 
 
 
-  "A timestamp" should "convert to a joda time" in {
+  "A milliseconds" should "convert to a joda time" in {
 
-    println(new org.joda.time.DateTime(1388534400000L))
-    println(new org.joda.time.DateTime(1388534400000L))
-    println(new org.joda.time.DateTime(1388538000000L))
-    println(new org.joda.time.DateTime(1388538000000L))
-    println(new org.joda.time.DateTime(1388541600000L))
-    println(new org.joda.time.DateTime(1388541600000L))
-    println(new org.joda.time.DateTime(1388545200000L))
-    println(new org.joda.time.DateTime(1388545200000L))
-    println(new org.joda.time.DateTime(1388548800000L))
-    println(new org.joda.time.DateTime(1388548800000L))
-    println(new org.joda.time.DateTime(1388552400000L))
-    println(new org.joda.time.DateTime(1388552400000L))
-    println(new org.joda.time.DateTime(1388556000000L))
-    println(new org.joda.time.DateTime(1388556000000L))
-    println(new org.joda.time.DateTime(1388559600000L))
-    println(new org.joda.time.DateTime(1388559600000L))
+    noException should be thrownBy new org.joda.time.DateTime(1388534400000L)
   }
 
   "A SortedSet of positions" should "return the position closest to the millisecond" in {
