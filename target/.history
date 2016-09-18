@@ -8,3 +8,12 @@ console
 run fills prices
 run fills_s prices
 run fills prices
+run fills_s prices_s
+run fills prices
+run fills_s prices_s
+sbt fills_s prices_s
+run fills_s prices_s
+console
+sbt fills_s prices_s
+run fills_s prices_s
+run fills prices

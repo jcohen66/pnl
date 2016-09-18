@@ -1,6 +1,9 @@
 import java.math.BigInteger
 
+import scala.concurrent.Future
 import scala.io.Source
+import scala.util.{Failure, Success}
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by jcohen66 on 9/16/16.
@@ -12,7 +15,7 @@ case class Px(messageType: String, milliseconds: BigInt, symbol: String, px: Dou
 case class Position(symbol: String, milliseconds: BigInt, position: Integer = 0, netCash: Double = 0.0) extends Ordered[Position] {
 
   // return 0 if the same, negative if this < that, positive if this > that
-  def compare (that: Position) = {
+  def compare(that: Position) = {
     if (this.milliseconds == that.milliseconds)
       0
     else if (this.milliseconds > that.milliseconds)
@@ -22,7 +25,6 @@ case class Position(symbol: String, milliseconds: BigInt, position: Integer = 0,
   }
 }
 
-case class Cash(symbol: String, milliseconds: BigInt, cash: Double, netCash: Double)
 
 object Main extends App {
 
@@ -37,8 +39,13 @@ object Main extends App {
     val fills = arglist(0)
     val prices = arglist(1)
 
-    loadData(fills)
-    loadData(prices)
+    Future {
+      loadData(fills)
+    }.onComplete {
+      case Success(result) => loadData(prices)
+      case Failure(e) => e.printStackTrace
+    }
+
     println("done")
 
   }
@@ -48,21 +55,21 @@ object Main extends App {
       val fields = line.split(" ")
       fields(0) match {
         case "F" =>
-          val fill = Fill(fields(0), BigInt(fields(1)), fields(2), fields(3).toDouble, fields(4).toInt, fields(5).toCharArray.head)
-          PositionService.transact(fill)
-          // PNLService.transact2(fill)
-          // println(new org.joda.time.DateTime(fill.milliseconds.toLong))
+          Future {
+            val fill = Fill(fields(0), BigInt(fields(1)), fields(2), fields(3).toDouble, fields(4).toInt, fields(5).toCharArray.head)
+            PositionService.transact(fill)
+          }.onComplete {
+            case Success(result) =>
+            case Failure(e) => e.printStackTrace
+          }
+
         case "P" =>
-          val price = Px(fields(0), BigInt(fields(1)), fields(2), fields(3).toDouble)
-          val posm = PositionService.position(price.symbol, price.milliseconds)
-          println(s"PnL for ${price.symbol} at ${new org.joda.time.DateTime(price.milliseconds.toLong)} is: ${((posm.position * price.px) - posm.netCash)}")
+          val m2mPx = Px(fields(0), BigInt(fields(1)), fields(2), fields(3).toDouble)
+          println(s"PnL for ${m2mPx.symbol} at ${new org.joda.time.DateTime(m2mPx.milliseconds.toLong)} is: " + PositionService.pnl(m2mPx.symbol, m2mPx.milliseconds, m2mPx.px))
         case _ =>
           println("Invalid record type")
       }
-      // println(line)
     }
-    println(PositionService.position("MSFT"))
-    println(PositionService.positions("MSFT"))
   }
 
 }
