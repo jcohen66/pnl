@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aqr_pnl.iml" filepath="$PROJECT_DIR$/.idea/modules/aqr_pnl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aqr_pnl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/aqr_pnl-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pnl.iml" filepath="$PROJECT_DIR$/.idea/modules/pnl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pnl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/pnl-build.iml" />
     </modules>
   </component>
 </project>

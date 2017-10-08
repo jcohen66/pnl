@@ -17,3 +17,10 @@ console
 sbt fills_s prices_s
 run fills_s prices_s
 run fills prices
+run fills_s prices_s
+run fills prices
+run fills_s prices_s
+run fills prices
+run fills_s prices_s
+run x y
+run fills_s prices_s

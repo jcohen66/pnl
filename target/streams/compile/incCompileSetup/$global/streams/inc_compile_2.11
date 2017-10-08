@@ -20,8 +20,6 @@ name hashing:
 0 -> true
 products:
 15 items
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill$.class
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1$$anonfun$apply$1.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1$$anonfun$apply$2.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1.class
@@ -29,19 +27,25 @@ products:
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$main$2.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main.class
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position$.class
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position.class
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px$.class
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px.class
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill$.class
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill.class
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position$.class
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/PositionService$.class
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/PositionService.class
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px$.class
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px.class
 binary dependencies:
-5 items
+9 items
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/jars/scala-logging_2.11-3.1.0.jar
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.4.jar
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/jars/scala-logging_2.11-3.1.0.jar
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -51,9 +55,8 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-2 items
+1 items
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -62,8 +65,6 @@ inheritance external dependencies:
 0 items
 class names:
 15 items
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Fill
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Fill$
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main$
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main$$anonfun$loadData$1
@@ -71,81 +72,82 @@ class names:
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main$$anonfun$loadData$1$$anonfun$apply$2
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main$$anonfun$main$1
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main$$anonfun$main$2
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Position
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Position$
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Px
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Px$
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Fill
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Fill$
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Position
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Position$
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> PositionService
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> PositionService$
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Px
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Px$
 used names:
-182 items
+221 items
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> &&
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> +
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> <init>
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> ==
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> >
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> AbstractFunction4
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> AbstractFunction6
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> App
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Array
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> BigInt
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Char
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Codec
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> DateTime
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Double
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> ExecutionContext
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> FILL_PX_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> FILL_SIZE_FIELD
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Failure
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Files
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Fill
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Future
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Implicits
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Integer
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> LazyLogging
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Logger
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> MESSAGE_TYPE
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> MESSAGE_TYPE_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> MILLISECONDS_FIELD
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Main
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> None
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Ordered
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Position
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> PX_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Paths
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> PositionService
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Predef
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Product
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Px
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> ScalaRunTime
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Serializable
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> REQUIRED_FIELD_COUNT
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> SIDE_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> SYMBOL_FIELD
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Source
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Statics
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> String
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> StringContext
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Success
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> System
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Thread
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> Unit
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> _toString
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> anyHash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> apply
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> arglist
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> args
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> asInstanceOf
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> augmentString
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> charArrayOps
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> com
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> concurrent
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> doubleHash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> e
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> eq
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> exception
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> exists
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> exit
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fallbackSystemCodec
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fields
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> file
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> filename
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fill
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fillPx
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fillSize
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fills
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> finalizeHash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> foreach
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> fromFile
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> get
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> getLines
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> global
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> head
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> info
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> int2Integer
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> io
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> isInfoEnabled
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> isInstanceOf
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> java
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> joda
@@ -153,151 +155,195 @@ used names:
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> length
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> line
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> loadData
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> logger
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> m2mPx
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> messageType
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> milliseconds
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> mix
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> netCash
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> nio
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> onComplete
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> org
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> package
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> pnl
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> position
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> prices
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> printStackTrace
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> println
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> px
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> refArrayOps
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> runtime
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> s
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> scala
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> side
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> scalalogging
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> sleep
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> split
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> symbol
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> that
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> time
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> toCharArray
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> toDouble
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> toInt
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> toList
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> toLong
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> toString
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> transact
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> typedProductIterator
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> typesafe
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> underlying
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> util
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> while$1
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> ||
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> $conforms
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> &&
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> *
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> +
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> <
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> <init>
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> ==
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> >
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> >=
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> AbstractFunction4
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> AnyRef
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> BigInt
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Char
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Double
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> FILL_PX_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> FILL_SIZE_FIELD
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Fill
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Integer
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Integer2int
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> LazyLogging
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Logger
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> LoggerFactory
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> MESSAGE_TYPE
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> MESSAGE_TYPE_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> MILLISECONDS_FIELD
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Map
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> None
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Option
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Ordered
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Ordering
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> PX_FIELD
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Position
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> PositionService
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Predef
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Product
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Px
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> REQUIRED_FIELD_COUNT
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> SIDE_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> SYMBOL_FIELD
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> ScalaRunTime
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Serializable
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> SortedSet
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Statics
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> String
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> StringContext
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> Unit
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> _toString
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> accNetCash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> accPosition
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> add
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> anyHash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> apply
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> asInstanceOf
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> augmentString
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> cashSign
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> clear
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> collection
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> com
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> doubleHash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> empty
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> eq
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> fill
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> fillPx
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> fillSize
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> finalizeHash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> format
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> get
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> info
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> initPosition
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> initialPosition
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> int2Integer
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> int2bigInt
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> isInfoEnabled
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> isInstanceOf
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> java
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> lang
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> last
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> lastOption
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> lastPos
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> logger
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> m2m
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> math
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> messageType
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> milliseconds
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> mix
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> mutable
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> netCash
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> ordered
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> org
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> package
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> pos
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> posSign
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> position
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> positionList
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> positions
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> println
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> proximalPositions
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> put
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> px
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> runtime
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> s
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> scala
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> scalalogging
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> set
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> side
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> sign
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> size
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> slf4j
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> symbol
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> that
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> to
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> toDouble
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> toInt
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> toString
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> typedProductIterator
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> typesafe
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> underlying
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> x
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> ||
 product stamps:
 15 items
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill$.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1$$anonfun$apply$1.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1$$anonfun$apply$2.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$main$1.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$main$2.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position$.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/PositionService$.class -> lastModified(1474175331000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/PositionService.class -> lastModified(1474175331000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px$.class -> lastModified(1474175637000)
-/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px.class -> lastModified(1474175637000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill$.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Fill.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1$$anonfun$apply$1.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1$$anonfun$apply$2.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$loadData$1.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$main$1.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$$anonfun$main$2.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main$.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Main.class -> lastModified(1474248456000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position$.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Position.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/PositionService$.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/PositionService.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px$.class -> lastModified(1474248410000)
+/Users/jcohen66/IdeaProjects/AQR_PNL/target/scala-2.11/classes/Px.class -> lastModified(1474248410000)
 source stamps:
 2 items
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> hash(598123803ec1275904924a9206f47b14e0cd7818)
-/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> hash(fad8a606ad9b357cd913cb2cd621522b269d3aaf)
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> hash(6f7c448a9ea0e539da004d812de012a8cebe07cd)
+/Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> hash(d324106bfc3c37ffb213867f9c71c3a652082933)
 binary stamps:
-3 items
+5 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466589303000)
-/Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar -> lastModified(1441292364000)
+/Users/jcohen66/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/jars/scala-logging_2.11-3.1.0.jar -> lastModified(1407940736000)
+/Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.4.jar -> lastModified(1464341133000)
 /Users/jcohen66/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/Users/jcohen66/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar -> lastModified(1459794999000)
 class names:
-3 items
+5 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
-/Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar -> org.joda.time.DateTime
-/Users/jcohen66/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Product
+/Users/jcohen66/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/jars/scala-logging_2.11-3.1.0.jar -> com.typesafe.scalalogging.LazyLogging
+/Users/jcohen66/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.4.jar -> org.joda.time.DateTime
+/Users/jcohen66/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.App
+/Users/jcohen66/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar -> org.slf4j.Logger
 internal apis:
 2 items
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/Main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBCeV9LAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAOHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMa70XN0AARzaWRlc3EAfgAMSaDgO3QABm5vdGlmeXNxAH4ADBBLx8Z0AAZmaWxsUHhzcQB+AAzdCmKLdAAEd2FpdHNxAH4ADCp9s6N0AAI8PXNxAH4ADKfqPup0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADIFaffx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGEOLdHQADmNvcHkkZGVmYXVsdCQ1c3EAfgAMX3azKnQADHByb2R1Y3RBcml0eXNxAH4ADFnxtIt0AAZlcXVhbHNzcQB+AAyNMFFodAAIUG9zaXRpb25zcQB+AAxTTTcndAAMYXNJbnN0YW5jZU9mc3EAfgAM8nn0DHQADmV4ZWN1dGlvblN0YXJ0c3EAfgAMckvcgnQAATxzcQB+AAzu7+GYdAAMc3luY2hyb25pemVkc3EAfgAMyPAfz3QADSRpc0luc3RhbmNlT2ZzcQB+AAxAPn8NdAAERmlsbHNxAH4ADEMc8Eh0AAI+PXNxAH4ADBT2d+B0AAhjYW5FcXVhbHNxAH4ADLjoa4p0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADKdmOTp0AARtYWluc3EAfgAM98+MN3QADXByb2R1Y3RQcmVmaXhzcQB+AAzP7TLUdAACcHhzcQB+AAyYrkxYdAAJbm90aWZ5QWxsc3EAfgAMLN96dHQACWNvbXBhcmVUb3NxAH4ADNijL2d0AAxpc0luc3RhbmNlT2ZzcQB+AAyfecJldAALbWVzc2FnZVR5cGVzcQB+AAyBwryddAAGc3ltYm9sc3EAfgAMedvo8XQABjxpbml0PnNxAH4ADGfrZcJ0AAhmaWxsU2l6ZXNxAH4ADICBvp10AAI9PXNxAH4ADLttJit0AAVjbG9uZXNxAH4ADFrZ/zR0AAhsb2FkRGF0YXNxAH4ADOWvdUV0AAduZXRDYXNoc3EAfgAMJEzJlnQADmNvcHkkZGVmYXVsdCQzc3EAfgAMt+Svi3QABGNvcHlzcQB+AAx9+amSdAAETWFpbnNxAH4ADAoAwZh0AAhwb3NpdGlvbnNxAH4ADFPhulZ0AAh0b1N0cmluZ3NxAH4ADEEFGbB0AARhcmdzc3EAfgAMlLmqB3QAAiE9c3EAfgAM+S4MfXQACGdldENsYXNzc3EAfgAMKlC+3nQADmNvcHkkZGVmYXVsdCQxc3EAfgAMUhamcXQADmNvcHkkZGVmYXVsdCQ2c3EAfgAM/7GPonQADG1pbGxpc2Vjb25kc3NxAH4ADHrItoV0AAJuZXNxAH4ADPHsezB0AAJlcXNxAH4ADMr580h0AAdjb21wYXJlc3EAfgAM6t10kXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADEuofWB0AAJQeHNxAH4ADJGCQGV0AAE+c3EAfgAMEX93K3QAC2RlbGF5ZWRJbml0c3EAfgAMjHd4dHQAAiMjc3EAfgAMadtq83QACGZpbmFsaXplc3EAfgAMPUzR/XQADnByb2R1Y3RFbGVtZW50c3EAfgAMG1LcVnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ah3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6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BVBsYWlucQB+AF1zcQB+ASpzcQB+ALd0AAVBcnJheXEAfgFfdXEAfgC1AAAAAXNxAH4At3QABlN0cmluZ3NxAH4Au3NxAH4AvnVxAH4AwQAAAANzcQB+AMNxAH4AznNxAH4Aw3EAfgDccQB+AMhzcQB+AJ4AcHNxAH4Ao3VxAH4AggAAAABzcQB+AJ4AcHNxAH4Ao3VxAH4AtQAAAARzcQB+ALd0AANBcHBxAH4BX3NxAH4At3QAC0RlbGF5ZWRJbml0cQB+AV9zcQB+ALdxAH4A1nEAfgF2c3EAfgC3cQB+AN5xAH4BX3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFXO7cPh3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD4vVXNlcnMvamNvaGVuNjYvSWRlYVByb2plY3RzL0FRUl9QTkwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFmBI4A+wSdZBJJKkgb0exTgzXgY
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBV6vUVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPbjxQZ0AAZub3RpZnlzcQB+AAxOTUcbdAAEd2FpdHNxAH4ADGBKIyZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMttTNlXQABmxvZ2dlcnNxAH4ADKIC6/d0AAZlcXVhbHNzcQB+AAyLdy0IdAAMYXNJbnN0YW5jZU9mc3EAfgAM8nn0DHQADmV4ZWN1dGlvblN0YXJ0c3EAfgAMSCbSKHQADHN5bmNocm9uaXplZHNxAH4ADBL6zad0AA0kaXNJbnN0YW5jZU9mc3EAfgAMp2Y5OnQABG1haW5zcQB+AAxdKuzzdAAJbm90aWZ5QWxsc3EAfgAMqIdyWXQADGlzSW5zdGFuY2VPZnNxAH4ADEVAMWF0AAI9PXNxAH4ADDHYpZZ0AAVjbG9uZXNxAH4ADFrZ/zR0AAhsb2FkRGF0YXNxAH4ADKN7gmN0AARNYWluc3EAfgAMKdqiV3QACHRvU3RyaW5nc3EAfgAMQQUZsHQABGFyZ3NzcQB+AAwo3axNdAACIT1zcQB+AAz2jva6dAAIZ2V0Q2xhc3NzcQB+AAzTS0awdAACbmVzcQB+AAz/0aa8dAACZXFzcQB+AAwRf3crdAALZGVsYXllZEluaXRzcQB+AAx1h7yCdAACIyNzcQB+AAwM636fdAAIZmluYWxpemVzcQB+AAzU8EpHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AC11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBjAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBLTAAJaW5oZXJpdGVkcQB+AEtMAAdwYXJlbnRzcQB+AEt4cQB+AGpzcQB+AGMBdXEAfgBGAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBMcQB+AFV1cQB+AFYAAAAAc3EAfgBYAnEAfgAhdXEAfgBaAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGl0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AcnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AXXQABVBsYWlucQB+ADFzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHlbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGlzcQB+AHh0AAVBcnJheXEAfgB+dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHh0AAZTdHJpbmdzcQB+AHxzcQB+AH91cQB+AIIAAAADc3EAfgCEdAAEamF2YXNxAH4AhHQABGxhbmdxAH4AiXBzcQB+AGMBdXEAfgBGAAAAAHBzcQB+AGMBdXEAfgCcAAAABXNxAH4AeHQAC0xhenlMb2dnaW5nc3EAfgB8c3EAfgB/dXEAfgCCAAAABHNxAH4AhHQAA2NvbXNxAH4AhHQACHR5cGVzYWZlc3EAfgCEdAAMc2NhbGFsb2dnaW5ncQB+AIlzcQB+AHh0AANBcHBxAH4AfnNxAH4AeHQAC0RlbGF5ZWRJbml0cQB+AH5zcQB+AHh0AAZPYmplY3RxAH4AoHNxAH4AeHQAA0FueXEAfgB+cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV0AONfF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL2pjb2hlbjY2L0lkZWFQcm9qZWN0cy9BUVJfUE5ML3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRvfESKnqDlOdoATYEt4BKozr4HzQ==
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAZRltuAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAJZi/R0AAZub3RpZnlzcQB+AAz9+RnVdAADcG5sc3EAfgAMgxUCu3QABHdhaXRzcQB+AAyw6MG7dAANJGFzSW5zdGFuY2VPZnNxAH4ADIaeYqZ0AAtpbml0TmV0Q2FzaHNxAH4ADMyEcdl0AAZlcXVhbHNzcQB+AAxc5ytCdAAFY2xlYXJzcQB+AAyNsovTdAAMYXNJbnN0YW5jZU9mc3EAfgAMaycd/3QAC2FjY1Bvc2l0aW9uc3EAfgAM4+b8ynQADHN5bmNocm9uaXplZHNxAH4ADCr3iFN0AA0kaXNJbnN0YW5jZU9mc3EAfgAMS7p3PHQACW5vdGlmeUFsbHNxAH4ADGJFaPN0AAxpc0luc3RhbmNlT2ZzcQB+AAwzIPgldAAIdHJhbnNhY3RzcQB+AAy2VaW3dAAJcG9zaXRpb25zc3EAfgAMbwHydnQAAj09c3EAfgAMtKKyWnQABWNsb25lc3EAfgAMb2dF83QACmFjY05ldENhc2hzcQB+AAwidP5UdAAIcG9zaXRpb25zcQB+AAz7ogP2dAAIdG9TdHJpbmdzcQB+AAxhs0sldAAPUG9zaXRpb25TZXJ2aWNlc3EAfgAMs7ssAHQAAiE9c3EAfgAMj//3gHQACGdldENsYXNzc3EAfgAMFhI0sXQADGluaXRQb3NpdGlvbnNxAH4ADChoPah0AAJuZXNxAH4ADEkLg0Z0AAJlcXNxAH4ADOBrPmN0AAIjI3NxAH4ADNB/szd0AAhmaW5hbGl6ZXNxAH4ADK6Cx090AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AN3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AaAFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AUUwACWluaGVyaXRlZHEAfgBRTAAHcGFyZW50c3EAfgBReHEAfgBvc3EAfgBoAXVxAH4ATAAAAABwc3EAfgBoAXVxAH4ATAAAAABwc3EAfgBoAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AbnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ah3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHNxAH4Ae3QAA0FueXNxAH4Af3NxAH4AgnVxAH4AhQAAAAJzcQB+AId0AAVzY2FsYXEAfgCOcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzuyYCV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL2pjb2hlbjY2L0lkZWFQcm9qZWN0cy9BUVJfUE5ML3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT62KYGrZs1fNkTyyzWIVIrJp06rw==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBSYSraAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAASHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMa70XN0AARzaWRlc3EAfgAMZ0j0QHQABm5vdGlmeXNxAH4ADLmkWod0AAd1bmFwcGx5c3EAfgAMEEvHxnQABmZpbGxQeHNxAH4ADP35GdV0AANwbmxzcQB+AAz/q5J3dAAEd2FpdHNxAH4ADCp9s6N0AAI8PXNxAH4ADKfqPup0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADA2WHil0AA0kYXNJbnN0YW5jZU9mc3EAfgAM5hEhtHQABmxvZ2dlcnNxAH4ADBhDi3R0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADF92syp0AAxwcm9kdWN0QXJpdHlzcQB+AAyGnmKmdAALaW5pdE5ldENhc2hzcQB+AAybm5bhdAAGZXF1YWxzc3EAfgAMnptiGHQAEk1JTExJU0VDT05EU19GSUVMRHNxAH4ADKz2tlh0AAhQWF9GSUVMRHNxAH4ADFznK0J0AAVjbGVhcnNxAH4ADI0wUWh0AAhQb3NpdGlvbnNxAH4ADP03/X50AAxhc0luc3RhbmNlT2ZzcQB+AAxyS9yCdAABPHNxAH4ADGsnHf90AAthY2NQb3NpdGlvbnNxAH4ADDFeUSB0AAxzeW5jaHJvbml6ZWRzcQB+AAxCjVRpdAANJGlzSW5zdGFuY2VPZnNxAH4ADP7l0lV0AARGaWxsc3EAfgAMQxzwSHQAAj49c3EAfgAMyDxiOHQAFFJFUVVJUkVEX0ZJRUxEX0NPVU5Uc3EAfgAMFPZ34HQACGNhbkVxdWFsc3EAfgAMuOhrinQADmNvcHkkZGVmYXVsdCQ0c3EAfgAM98+MN3QADXByb2R1Y3RQcmVmaXhzcQB+AAxqiThkdAAPRklMTF9TSVpFX0ZJRUxEc3EAfgAMsAjBQHQADUZJTExfUFhfRklFTERzcQB+AAzP7TLUdAACcHhzcQB+AAztB5hOdAAJbm90aWZ5QWxsc3EAfgAMZbZ0THQAC3JlYWRSZXNvbHZlc3EAfgAMLN96dHQACWNvbXBhcmVUb3NxAH4ADDLLjGJ0AAxpc0luc3RhbmNlT2ZzcQB+AAyfecJldAALbWVzc2FnZVR5cGVzcQB+AAyBwryddAAGc3ltYm9sc3EAfgAMMyD4JXQACHRyYW5zYWN0c3EAfgAMedvo8XQABjxpbml0PnNxAH4ADLZVpbd0AAlwb3NpdGlvbnNzcQB+AAym8eLddAAFYXBwbHlzcQB+AAxn62XCdAAIZmlsbFNpemVzcQB+AAxulNQqdAAMTUVTU0FHRV9UWVBFc3EAfgAM25eVMXQAAj09c3EAfgAMnLYM33QABWNsb25lc3EAfgAMb2dF83QACmFjY05ldENhc2hzcQB+AAzlr3VFdAAHbmV0Q2FzaHNxAH4ADCRMyZZ0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADLfkr4t0AARjb3B5c3EAfgAMOdn0aXQACHBvc2l0aW9uc3EAfgAMRAcvMXQACHRvU3RyaW5nc3EAfgAMovQMMHQAD1Bvc2l0aW9uU2VydmljZXNxAH4ADHSUUK90AAIhPXNxAH4ADDSrI5V0AAhnZXRDbGFzc3NxAH4ADCpQvt50AA5jb3B5JGRlZmF1bHQkMXNxAH4ADBYSNLF0AAxpbml0UG9zaXRpb25zcQB+AAxSFqZxdAAOY29weSRkZWZhdWx0JDZzcQB+AAz/sY+idAAMbWlsbGlzZWNvbmRzc3EAfgAM1dhSrnQAAm5lc3EAfgAM6zknzHQAClNJREVfRklFTERzcQB+AAxy+kxhdAACZXFzcQB+AAzK+fNIdAAHY29tcGFyZXNxAH4ADOrddJF0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAwgjk9LdAACUHhzcQB+AAzPouFbdAAMU1lNQk9MX0ZJRUxEc3EAfgAMkYJAZXQAAT5zcQB+AAzaNSKydAACIyNzcQB+AAwwXvmmdAAIZmluYWxpemVzcQB+AAw9TNH9dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAxh5WMRdAAIaGFzaENvZGVzcQB+AAxgjzMHdAASTUVTU0FHRV9UWVBFX0ZJRUxEc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ap3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgA9dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AL4Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AKdMAAlpbmhlcml0ZWRxAH4Ap0wAB3BhcmVudHNxAH4Ap3hxAH4AxXNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AMR0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AMRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AN5zcQB+ANFxAH4A1HNxAH4A1XNxAH4A2HVxAH4A2wAAAANzcQB+AN10AARqYXZhc3EAfgDddAACaW9xAH4A4nNxAH4A0XQAB1Byb2R1Y3RxAH4A13NxAH4A0XQABkVxdWFsc3EAfgDXc3EAfgDRdAAGT2JqZWN0c3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDddAAEbGFuZ3EAfgDic3EAfgDRdAADQW55cQB+ANdwcHNxAH4ApHEAfgCxdXEAfgCyAAAAAHNxAH4AtAB0AARGaWxsdXEAfgC2AAAAAH5xAH4AuHQABk1vZHVsZXVxAH4AvAAAAABzcQB+AL4BcQB+AMZwc3EAfgC+AXNxAH4AyHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AM8AAAAEc3EAfgDRcQB+ANRzcQB+ANVzcQB+ANh1cQB+ANsAAAACc3EAfgDdcQB+AOBxAH4A4nNxAH4A0XEAfgDUc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDddAACaW9xAH4A4nNxAH4A0XEAfgDwc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDdcQB+APZxAH4A4nNxAH4A0XEAfgD4cQB+AQtwcHNxAH4ApHEAfgCxdXEAfgCyAAAAAHNxAH4AtABxAH4Aj3VxAH4AtgAAAABxAH4AunVxAH4AvAAAAABzcQB+AL4BcQB+AMZwc3EAfgC+AXNxAH4AyHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AM8AAAAGc3EAfgDRcQB+ANRzcQB+ANVzcQB+ANh1cQB+ANsAAAACc3EAfgDdcQB+AOBxAH4A4nNxAH4A0XEAfgDUc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDddAACaW9xAH4A4nNxAH4A0XEAfgDscQB+ASxzcQB+ANF0AAZFcXVhbHNxAH4BLHNxAH4A0XEAfgDwc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDdcQB+APZxAH4A4nNxAH4A0XEAfgD4cQB+ASxwcHNxAH4ApHEAfgCxdXEAfgCyAAAAAHNxAH4AtAB0AAJQeHVxAH4AtgAAAABxAH4A/nVxAH4AvAAAAABzcQB+AL4BcQB+AMZwc3EAfgC+AXNxAH4AyHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AM8AAAAEc3EAfgDRcQB+ANRzcQB+ANVzcQB+ANh1cQB+ANsAAAACc3EAfgDdcQB+AOBxAH4A4nNxAH4A0XEAfgDUc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDddAACaW9xAH4A4nNxAH4A0XEAfgDwc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDdcQB+APZxAH4A4nNxAH4A0XEAfgD4cQB+AVFwcHNxAH4ApHEAfgCxdXEAfgCyAAAAAHNxAH4AtABxAH4AMXVxAH4AtgAAAABxAH4AunVxAH4AvAAAAABzcQB+AL4BcQB+AMZwc3EAfgC+AXNxAH4AyHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AKIAAAAAcHNxAH4AvgF1cQB+AM8AAAAIc3EAfgDRcQB+ANRzcQB+ANVzcQB+ANh1cQB+ANsAAAACc3EAfgDdcQB+AOBxAH4A4nNxAH4A0XEAfgDUc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDddAACaW9xAH4A4nNxAH4A0XEAfgDscQB+AXJzcQB+ANF0AAZFcXVhbHNxAH4BcnNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4A0lsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AxHNxAH4A0XQAB09yZGVyZWRzcQB+ANVzcQB+ANh1cQB+ANsAAAADc3EAfgDdcQB+AOBzcQB+AN10AARtYXRocQB+AOJ1cQB+AM8AAAABc3EAfgDRdAAIUG9zaXRpb25zcQB+ANVzcQB+ANh1cQB+ANsAAAABcQB+AOJzcQB+AYBzcQB+ANF0AApDb21wYXJhYmxlc3EAfgDVc3EAfgDYdXEAfgDbAAAAA3NxAH4A3XEAfgDoc3EAfgDdcQB+APZxAH4A4nVxAH4AzwAAAAFxAH4BjHNxAH4A0XEAfgDwcQB+AZRzcQB+ANFxAH4A+HEAfgFycHBzcQB+AKRxAH4AsXVxAH4AsgAAAABzcQB+ALQAcQB+AHd1cQB+ALYAAAAAcQB+AP51cQB+ALwAAAAAc3EAfgC+AXEAfgDGcHNxAH4AvgFzcQB+AMhzcQB+AL4BdXEAfgCiAAAAAHBzcQB+AL4BdXEAfgCiAAAAAHBzcQB+AL4BdXEAfgDPAAAAA3NxAH4A0XQAC0xhenlMb2dnaW5nc3EAfgDVc3EAfgDYdXEAfgDbAAAABHNxAH4A3XQAA2NvbXNxAH4A3XQACHR5cGVzYWZlc3EAfgDddAAMc2NhbGFsb2dnaW5ncQB+AOJzcQB+ANFxAH4A8HNxAH4A1XNxAH4A2HVxAH4A2wAAAANzcQB+AN1xAH4A6HNxAH4A3XEAfgD2cQB+AOJzcQB+ANFxAH4A+HNxAH4A1XNxAH4A2HVxAH4A2wAAAAJzcQB+AN1xAH4A4HEAfgDicHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV0ANdkt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL2pjb2hlbjY2L0lkZWFQcm9qZWN0cy9BUVJfUE5ML3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTTJBBr/Dw3/7IThn+cccOmUggpMw==
 external apis:
 0 items
 source infos:
@@ -307,7 +353,7 @@ AAAAAAAAAAA=
 /Users/jcohen66/IdeaProjects/AQR_PNL/src/main/scala/PositionService.scala -> 
 AAAAAAAAAAA=
 compilations:
-44 items
+61 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzhgWgd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzhnr+p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzhpJyF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
@@ -352,3 +398,20 @@ compilations:
 41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzuv3tN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzuyYCV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 43 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVzu3D4d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+44 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz36Zfd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+45 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz4AZQB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz4GO3p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz4HwnV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5BGGp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5N7oR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5P2gh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5RvQt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5YVrx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5jM6d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+54 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz5kS591cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+55 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz+4MkZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+56 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz+5kY51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+57 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVz+7xsN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+58 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV0ANdkt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+59 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV0AN9Mh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+60 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV0AONfF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9qY29oZW42Ni9JZGVhUHJvamVjdHMvQVFSX1BOTC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

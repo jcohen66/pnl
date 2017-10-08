@@ -1,7 +1,50 @@
+import com.typesafe.scalalogging.{LazyLogging, Logger}
+import org.slf4j.LoggerFactory
+
 import scala.collection.mutable
 
+/**
+  * Fill class and companion object for holding data loaded from file.
+  *
+  * @param messageType
+  * @param milliseconds
+  * @param symbol
+  * @param fillPx
+  * @param fillSize
+  * @param side
+  */
 case class Fill(messageType: String, milliseconds: BigInt, symbol: String, fillPx: Double, fillSize: Integer, side: Char)
+
+object Fill {
+  val MESSAGE_TYPE = "F"
+  val REQUIRED_FIELD_COUNT = 6
+  val MESSAGE_TYPE_FIELD = 0
+  val MILLISECONDS_FIELD = 1
+  val SYMBOL_FIELD = 2
+  val FILL_PX_FIELD = 3
+  val FILL_SIZE_FIELD = 4
+  val SIDE_FIELD = 5
+}
+
+
+/**
+  * Px class and companion object for holding data loaded from file.
+  *
+  * @param messageType
+  * @param milliseconds
+  * @param symbol
+  * @param px
+  */
 case class Px(messageType: String, milliseconds: BigInt, symbol: String, px: Double)
+
+object Px {
+  val MESSAGE_TYPE = "P"
+  val REQUIRED_FIELD_COUNT = 4
+  val MESSAGE_TYPE_FIELD = 0
+  val MILLISECONDS_FIELD = 1
+  val SYMBOL_FIELD = 2
+  val PX_FIELD = 3
+}
 
 /**
   * Our position cache must contain positions for each symbol ordered by the timestamp so
@@ -25,8 +68,8 @@ case class Position(symbol: String, milliseconds: BigInt, position: Integer = 0,
   }
 }
 
-object PositionService {
-
+object PositionService extends LazyLogging {
+  
   /**
     * Use a TreeSet for position line items so they will be sorted by milliseconds
     * within each instrument.  SortedSet is the Scala TreeSet implementation.
@@ -163,27 +206,27 @@ object PositionService {
               */
             case 'B' =>
               val sign = -1
-              val pos = Position(fill.symbol, fill.milliseconds, fill.fillSize, initPosition(fill.fillPx, fill.fillSize, sign)
+              val initialPosition = Position(fill.symbol, fill.milliseconds, fill.fillSize, initPosition(fill.fillPx, fill.fillSize, sign)
               )
-              positions.put(fill.symbol, mutable.SortedSet(pos))
+              positions.put(fill.symbol, mutable.SortedSet(initialPosition))
 
             /**
               * Regular Sell
               */
             case 'S' if fill.fillSize >= 0 =>
               val sign = 1
-              val pos = Position(fill.symbol, fill.milliseconds, fill.fillSize, initPosition(fill.fillPx, fill.fillSize, sign)
+              val initialPosition = Position(fill.symbol, fill.milliseconds, fill.fillSize, initPosition(fill.fillPx, fill.fillSize, sign)
               )
-              positions.put(fill.symbol, mutable.SortedSet(pos))
+              positions.put(fill.symbol, mutable.SortedSet(initialPosition))
 
             /**
               * Short sell
               */
             case 'S' if fill.fillSize < 0 =>
               val sign = -1
-              val pos = Position(fill.symbol, fill.milliseconds, fill.fillSize, initPosition(fill.fillPx, fill.fillSize, sign)
+              val initialPosition = Position(fill.symbol, fill.milliseconds, fill.fillSize, initPosition(fill.fillPx, fill.fillSize, sign)
               )
-              positions.put(fill.symbol, mutable.SortedSet(pos))
+              positions.put(fill.symbol, mutable.SortedSet(initialPosition))
 
 
           }
@@ -194,7 +237,9 @@ object PositionService {
   }
 
   /**
-    * This isolates the calculation so it can be tested independently
+    * Overlay a mark to market price update over
+    * the closest match to milliseconds for the
+    * symbol and apply to position.
     *
     *
     * @param symbol
@@ -227,7 +272,7 @@ object PositionService {
       proximalPositions.lastOption
 
     case None =>
-      println(s"No matching position found for ${symbol}")
+      logger.info(s"No matching position found for ${symbol}")
       None
   }
 
@@ -245,7 +290,7 @@ object PositionService {
         val lastPos = set.last
         lastPos
       case None =>
-        println(s"No matching position found for ${symbol}")
+        logger.info(s"No matching position found for ${symbol}")
         Position(symbol, 0, 0)
     }
   }

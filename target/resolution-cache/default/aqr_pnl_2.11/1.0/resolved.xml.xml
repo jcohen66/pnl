@@ -4,7 +4,7 @@
 		module="aqr_pnl_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160917113634"
+		publication="20160918195709"
 	>
 		<description>
 		AQR_PNL
@@ -35,6 +35,9 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.0" conf="compile->default(compile)"/>
-		<dependency org="joda-time" name="joda-time" rev="2.3" conf="compile->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.9.4" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.21" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.21" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.11" rev="3.1.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
